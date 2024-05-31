@@ -1,0 +1,96 @@
+# OSX
+#
+.DS_Store
+
+# Xcode
+#
+build/
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata
+*.xccheckout
+*.moved-aside
+DerivedData
+*.hmap
+*.ipa
+*.xcuserstate
+project.xcworkspace
+.xcode.env.local
+
+# Android/IntelliJ
+#
+cometchat-app/android/app/build/
+ios/Pods
+cometchat-app/android/app/build/
+/android/app/build/
+/app/build/
+ios/Pods/*
+build/
+.idea
+.gradle
+local.properties
+*.iml
+
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
+yarn.lock # include if you are using yarn - don't use both npm and yarn
+
+# BUCK
+buck-out/
+\.buckd/
+# *.keystore
+!cometchat-app/android/app/debug.keystore
+!cometchat-app/android/app/my-upload-key.keystore
+
+# Fastlane
+#
+# It is recommended to not store the screenshots in the git repo. Instead, use Fastlane to re-generate the
+# screenshots whenever they are needed.
+# For more information about the recommended setup visit:
+# https://docs.fastlane.tools/best-practices/source-control/
+
+*/fastlane/report.xml
+*/fastlane/Preview.html
+*/fastlane/screenshots
+
+# Pods 
+cometchat-app/ios/Pods/
+cometchat-app/ios/Pods/
+/ios/Pods/
+ios/Pods/*
+
+# Bundle artifact
+*.jsbundle
+
+# Build file for ui-kit
+cometchat-pro-react-native-ui-kit-1.0.0.tgz
+
+# Logs
+*.log
+npm-debug.log
+
+# Runtime data
+tmp
+build
+lib
+
+# Dependency directory
+node_modules
+*.DS_Store
+example/development2
+example/development
+# Build file for local testing
+cometchat-pro-react-native-ui-kit-1.0.0.tgz
+Pods
+.idea
+.gradle
+vendor
